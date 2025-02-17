@@ -1,0 +1,49 @@
+.gallery{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, transparent, black 190%),url('../../assets/background_gallery.jpg');
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.gallery-caption{
+    padding-top: 20%;
+    justify-content: center;
+    text-align: center;
+}
+
+.gallery-caption h2{
+    font-size: 14rem;
+    color: #e7e0e0;
+    font-weight: 500;
+}
+
+@media (max-width:950px) {
+    .gallery-caption h2{
+        font-size: 12rem;
+        padding-top: 10%;
+    }
+}
+
+@media (max-width:770px) {
+    .gallery-caption h2{
+        font-size: 10rem;
+        padding-top: 17%;
+    }
+}
+
+@media (max-width:650px) {
+    .gallery-caption h2{
+        font-size: 8rem;
+        padding-top: 30%;
+    }
+}
+
+@media (max-width:500px) {
+    .gallery-caption h2{
+        font-size: 5rem;
+        padding-top: 50%;
+    }
+}

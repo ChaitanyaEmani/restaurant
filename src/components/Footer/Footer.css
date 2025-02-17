@@ -1,0 +1,29 @@
+
+.footer{
+    background-color: #013e42;
+    color: #fff;
+    padding: 20px;
+    margin-top: 8%;  
+}
+
+.footer-text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.footer-text h2{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.footer-text p{
+    font-size: 16px;
+    font-weight: 100;
+}
+
+@media (max-width: 730px) {
+    
+}

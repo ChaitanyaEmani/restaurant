@@ -1,0 +1,43 @@
+
+.menu{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(to bottom, transparent, black 190%),url('../../assets/background_menu.jpg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-caption{
+    padding-top: 20%;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu-caption h2{
+    font-size: 14rem;
+    color: #e7e0e0;
+    font-weight: 500;
+}
+
+@media (max-width:850px) {
+    .menu-caption h2{
+        padding-top: 2rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .menu-caption h2{
+        padding-top: 6rem;
+        font-size: 10rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .menu-caption h2{
+        padding-top: 8rem;
+        font-size: 6rem;
+    }
+}
+
