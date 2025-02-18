@@ -6,17 +6,17 @@ const Starters = [
     {
         image: chicken_lollipop,
         name: "Chicken Lollipop",
-        price: 'Rs.260'
+        price: 'Rs.200'
     },
     {
         image: fish_fry,
         name: "Fish fry",
-        price: 'Rs.300'
+        price: 'Rs.250'
     },
     {
         image: prawns,
-        name: "Prawns",
-        price: 'Rs.350'
+        name: "Prawns fry",
+        price: 'Rs.180'
     },
     
 ]

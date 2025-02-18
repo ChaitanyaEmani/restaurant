@@ -11,12 +11,12 @@ const Cakes = [
     {
         image: chocolate,
         name: "Chocolate",
-        price: 'Rs.300'
+        price: 'Rs.150'
     },
     {
         image: rasamalai,
         name: "Rasamalai",
-        price: 'Rs.350'
+        price: 'Rs.100'
     },
     
 ]
