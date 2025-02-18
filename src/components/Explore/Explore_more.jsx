@@ -7,8 +7,7 @@ const Explore_more = () => {
   return (
     <div className='container'>
         <h1>Explore More</h1>
-        <div className="explore">
-            
+        <div className="explore">     
             {Explore.map((card,index)=>{
                 return <div className="card-1" key={index}>
                     <img src={card.image} alt="" />
