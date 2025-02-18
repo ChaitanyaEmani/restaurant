@@ -6,17 +6,17 @@ const Chinese = [
     {
         image: garlic,
         name: "Veg Burnt garlic",
-        price: 'Rs.260'
+        price: 'Rs.200'
     },
     {
         image: chinese,
         name: "Veg chinese garlic",
-        price: 'Rs.300'
+        price: 'Rs.230'
     },
     {
         image: hakka,
         name: "Veg chinese hakka",
-        price: 'Rs.350'
+        price: 'Rs.150'
     },
     
 ]

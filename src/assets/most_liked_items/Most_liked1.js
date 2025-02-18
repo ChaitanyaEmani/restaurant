@@ -5,8 +5,8 @@ import chicken_lollipop from './chicken_lollipop.jpg'
 const Most_liked1 = [
     {
         image: chicken_lollipop,
-        name: "Chicekn Lollipop",
-        price: 'Rs.260'
+        name: "Chicken Lollipop",
+        price: 'Rs.200'
     },
     {
         image: tandoori_chicken,

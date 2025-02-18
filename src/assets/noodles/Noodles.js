@@ -6,17 +6,17 @@ const Noodles = [
     {
         image: chicken_noodles,
         name: "Chicken Noodles",
-        price: 'Rs.260'
+        price: 'Rs.120'
     },
     {
         image: veg_noodles,
         name: "Veg Noodles",
-        price: 'Rs.300'
+        price: 'Rs.80'
     },
     {
         image: egg_noodles,
         name: "Egg Noodles",
-        price: 'Rs.350'
+        price: 'Rs.100'
     },
     
 ]

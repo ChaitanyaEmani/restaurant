@@ -16,7 +16,7 @@ const Today_special = [
     {
         image: fish_fry,
         name: "Fish fry",
-        price: 'Rs.350'
+        price: 'Rs.250'
     },
     
 ]
