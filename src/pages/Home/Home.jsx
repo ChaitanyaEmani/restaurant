@@ -1,10 +1,11 @@
 import React from 'react'
 import './Home.css'
-import Navbar from '../../components/Navbar/Navbar'
-import Explore_more from '../../components/Explore/Explore_more'
-import TodaySpecial from '../../components/TodaySpecial/TodaySpecial'
-import Most_liked from '../../components/Most_liked/Most_liked'
-import Footer from '../../components/Footer/Footer'
+const Navbar = React.lazy(()=>import('../../components/Navbar/Navbar'));
+const Explore_more = React.lazy(()=>import('../../components/Explore/Explore_more'));
+const TodaySpecial = React.lazy(()=>import('../../components/TodaySpecial/TodaySpecial'));
+const Most_liked = React.lazy(()=>import('../../components/Most_liked/Most_liked'));
+const Footer = React.lazy(()=>import('../../components/Footer/Footer'));
+
 
 const Home = () => {
   return (

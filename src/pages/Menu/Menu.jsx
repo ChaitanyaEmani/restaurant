@@ -1,13 +1,14 @@
 import React from 'react'
 import './Menu.css'
-import Navbar from '../../components/Navbar/Navbar'
-import Biryani_card from '../../components/Biryani/Biryani_card'
-import Chinese_card from '../../components/Chinese/Chinese_card'
-import Footer from '../../components/Footer/Footer'
-import Cake_card from '../../components/Cakes/Cake_card'
-import Noodles_card from '../../components/Noodles/Noodles_card'
-import Rolls_card from '../../components/Rolls/Rolls_Card'
-import Starters_card from '../../components/Starters/Starters_Card'
+const Navbar = React.lazy(()=>import('../../components/Navbar/Navbar'));
+const Biryani_card = React.lazy(()=>import('../../components/Biryani/Biryani_card'));
+const Chinese_card = React.lazy(()=>import('../../components/Chinese/Chinese_card'));
+const Footer = React.lazy(()=>import('../../components/Footer/Footer'));
+const Cake_card = React.lazy(()=>import('../../components/Cakes/Cake_card'));
+const Noodles_card = React.lazy(()=>import('../../components/Noodles/Noodles_card'));
+
+import Rolls_card from '../../components/Rolls/Rolls_Card';
+import Starters_card from '../../components/Starters/Starters_Card';
 
 const Menu = () => {
   return (
