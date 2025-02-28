@@ -1,13 +1,13 @@
 
 
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
+const Navbar = React.lazy(()=>import('../../components/Navbar/Navbar'));
 import './Gallery.css';
-import Gallery_pics1 from '../../components/Gallery/Gallery_pics1';
-import Gallery_pics2 from '../../components/Gallery/Gallery_pics2';
-import Gallery_pics3 from '../../components/Gallery/Gallery_pics3';
-import Gallery_pics4 from '../../components/Gallery/Gallery_pics4';
-import Footer from '../../components/Footer/Footer';
+const Gallery_pics1 = React.lazy(()=>import('../../components/Gallery/Gallery_pics1'));
+const Gallery_pics2 = React.lazy(()=>import('../../components/Gallery/Gallery_pics2'));
+const Gallery_pics3 = React.lazy(()=>import('../../components/Gallery/Gallery_pics3'));
+const Gallery_pics4 = React.lazy(()=>import('../../components/Gallery/Gallery_pics4'));
+const Footer = React.lazy(()=>import('../../components/Footer/Footer'));
 
 const Gallery = () => {
   return (

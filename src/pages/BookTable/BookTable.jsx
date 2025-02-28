@@ -7,6 +7,8 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import './BookTable.css'
+import Navbar from "../../components/Navbar/Navbar";
 
 const BookTable = () => {
   const [selectedDate, setSelectedDate] = useState(null);
@@ -39,6 +41,8 @@ const BookTable = () => {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="booking-form">
       <h2>Book a Table</h2>
       <Formik
@@ -47,28 +51,28 @@ const BookTable = () => {
         onSubmit={handleSubmit}
       >
         {({ isSubmitting }) => (
-          <Form>
+          <Form className="form">
             <div>
               <label>Name</label>
-              <Field type="text" name="name" />
+              <Field type="text" name="name" placeholder="your name" className="input"/>
               <ErrorMessage name="name" component="div" className="error" />
             </div>
 
             <div>
               <label>Email</label>
-              <Field type="email" name="email" />
+              <Field type="email" name="email" placeholder="your email" className="input"/>
               <ErrorMessage name="email" component="div" className="error" />
             </div>
 
             <div>
               <label>Phone</label>
-              <Field type="text" name="phone" />
+              <Field type="text" name="phone" placeholder="your mobile number" className="input"/>
               <ErrorMessage name="phone" component="div" className="error" />
             </div>
 
             <div>
               <label>Number of Guests</label>
-              <Field type="number" name="guests" />
+              <Field type="number" name="guests" placeholder="number of guests" className="input"/>
               <ErrorMessage name="guests" component="div" className="error" />
             </div>
 
@@ -79,16 +83,18 @@ const BookTable = () => {
                 onChange={(date) => setSelectedDate(date)}
                 showTimeSelect
                 dateFormat="Pp"
+                className="input"
                 placeholderText="Select date and time"
               />
             </div>
 
-            <button type="submit" disabled={isSubmitting}>Book Now</button>
+            <button type="submit" disabled={isSubmitting} className="btn">Book Now</button>
           </Form>
         )}
       </Formik>
       <ToastContainer />
     </div>
+    </>
   );
 };
 

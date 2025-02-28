@@ -1,9 +1,11 @@
 import React from 'react'
-import Home from './pages/Home/Home'
+const Home = React.lazy(()=>import('./pages/Home/Home'));
+// import Home from ''
+const Menu = React.lazy(()=>import('./pages/Menu/Menu'));
+const Gallery = React.lazy(()=>import('./pages/Gallery/Gallery'));
+const BookTable = React.lazy(()=>import('./pages/BookTable/BookTable'));
 import { Routes, Route } from 'react-router-dom'
-import Menu from './pages/Menu/Menu'
-import Gallery from './pages/Gallery/Gallery'
-import BookTable from './pages/BookTable/BookTable'
+
 
 const App = () => {
   return (
