@@ -24,8 +24,8 @@ const BookTable = () => {
         email: values.email,
         phone: values.phone,
         guests: values.guests,
-        time: values.time, // Storing only time
-        timestamp: new Date().getTime(), // Storing timestamp
+        time: values.time, 
+        timestamp: new Date().getTime(), 
       });
 
       toast.success("Booking Successful!");
@@ -72,7 +72,7 @@ const BookTable = () => {
                 <ErrorMessage name="guests" component="div" className="error" />
               </div>
 
-              {/* Time Picker Below the Guests Field */}
+              
               <div className="timepicker-container">
                 <label className="timepicker-label">Select Time</label>
                 <Field type="time" name="time" className="timepicker-input" required />
