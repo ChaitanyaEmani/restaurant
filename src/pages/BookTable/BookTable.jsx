@@ -123,6 +123,14 @@ const BookTable = () => {
                   <ErrorMessage name="time" component="div" className="error" />
                 </div>
 
+              
+               <div className="timepicker-container">
+                <label className="timepicker-label">Select Time</label>
+                <Field type="time" name="time" className="timepicker-input" required />
+                <ErrorMessage name="time" component="div" className="error" />
+              </div> 
+
+
                 <button type="submit" disabled={isSubmitting} className="btn btn-2">
                   Book Now
                 </button>
