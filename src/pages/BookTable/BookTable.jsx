@@ -110,14 +110,14 @@ const BookTable = () => {
                   <ErrorMessage name="date" component="div" className="error" />
                 </div>
 
-                {/* Time Picker */}
+                
                 <div className="timepicker-container">
                   <label>Select Time</label>
                   <Field
                     type="time"
                     name="time"
                     className="timepicker-input"
-                    min={minTime} // Restrict past times
+                    min={minTime} 
                     required
                   />
                   <ErrorMessage name="time" component="div" className="error" />
